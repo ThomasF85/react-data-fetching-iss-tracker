@@ -15,7 +15,7 @@ export default function ISSTracker() {
   if (isLoading) {
     return <div>Loading...</div>;
   }
-  console.log(data);
+
   return (
     <main>
       <Map longitude={data.longitude} latitude={data.latitude} />
